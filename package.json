@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "1.0.0",
+  "description": "Solutions for Advent of Code 2024",
+  "main": "src/cli/index.ts",
+  "bin": {
+    "aoc": "src/cli/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidivad96/advent-of-code-2024.git"
+  },
+  "author": "davidivad96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidivad96/advent-of-code-2024/issues"
+  },
+  "homepage": "https://github.com/davidivad96/advent-of-code-2024#readme",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1"
+  }
+}
