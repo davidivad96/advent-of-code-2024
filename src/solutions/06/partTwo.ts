@@ -12,7 +12,6 @@ const isCycle = (
   let currentDirection: Direction = "up";
   const visited: [number, number, Direction][] = [];
   while (true) {
-    const last = visited[visited.length - 1];
     if (currentDirection === "up") {
       if (i === 0) {
         return false;
