@@ -1,5 +1,5 @@
 const calculateRating = (map: string[], initial: [number, number]): number => {
-  let score = 0;
+  let rating = 0;
   const directions: [number, number][] = [
     [-1, 0], // Up
     [0, 1], // Right
@@ -15,7 +15,7 @@ const calculateRating = (map: string[], initial: [number, number]): number => {
       const nj = j + dj;
       if (+map[ni]?.[nj] - +map[i][j] === 1) {
         if (map[ni][nj] === "9") {
-          score++;
+          rating++;
         } else {
           queue.push([ni, nj]);
         }
@@ -23,7 +23,7 @@ const calculateRating = (map: string[], initial: [number, number]): number => {
     }
   }
 
-  return score;
+  return rating;
 };
 
 export const partTwo = (input: string[]): number => {
