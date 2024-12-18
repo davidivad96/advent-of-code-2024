@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/davidivad96/advent-of-code-2024#readme",
   "dependencies": {
-    "commander": "^11.1.0"
+    "commander": "^11.1.0",
+    "typescript": "^5.7.2"
   },
   "devDependencies": {
     "@types/node": "^20.10.1"
